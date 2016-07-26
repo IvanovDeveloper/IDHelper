@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'IDHelper_Example' do
+  pod 'IDHelper', :path => '../'
+
+  target 'IDHelper_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
