@@ -12,6 +12,8 @@
 		4571D0B46234708EE3B927062A4B2849 /* Pods-IDHelper_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = E81E4D6A773A98737976EF35B7622A22 /* Pods-IDHelper_Tests-dummy.m */; };
 		6B0C28FDA4EAFF1CB020B57EF07618B0 /* Pods-IDHelper_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 2D0FCEBA81185D6B4A6D9A6B05DBA54E /* Pods-IDHelper_Example-dummy.m */; };
 		9B52A90C26641B9DE5B4573DC4769654 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CEC22C73C1608DFA5D5D78BDCB218219 /* Foundation.framework */; };
+		B3D4F47A1D47BFAD00A4E24A /* IDRegularExpressions.h in Headers */ = {isa = PBXBuildFile; fileRef = B3D4F4781D47BFAD00A4E24A /* IDRegularExpressions.h */; };
+		B3D4F47B1D47BFAD00A4E24A /* IDRegularExpressions.m in Sources */ = {isa = PBXBuildFile; fileRef = B3D4F4791D47BFAD00A4E24A /* IDRegularExpressions.m */; };
 		B57FD95F852AB68ECDFAE1BDDB86A37C /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CEC22C73C1608DFA5D5D78BDCB218219 /* Foundation.framework */; };
 /* End PBXBuildFile section */
 
@@ -33,6 +35,8 @@
 		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		ABB3701E3122390846118ADC8AEBC580 /* Pods-IDHelper_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-IDHelper_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		AD86D79900C426515F16103E00E76D1F /* Pods-IDHelper_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-IDHelper_Tests-frameworks.sh"; sourceTree = "<group>"; };
+		B3D4F4781D47BFAD00A4E24A /* IDRegularExpressions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = IDRegularExpressions.h; path = Classes/RegularExpressions/IDRegularExpressions.h; sourceTree = "<group>"; };
+		B3D4F4791D47BFAD00A4E24A /* IDRegularExpressions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = IDRegularExpressions.m; path = Classes/RegularExpressions/IDRegularExpressions.m; sourceTree = "<group>"; };
 		BEAD26C75A6C71961C480AD1DFACBF27 /* IDHelper.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = IDHelper.h; sourceTree = "<group>"; };
 		BF2742DABC127B3A9E81D1DC36A71421 /* Pods-IDHelper_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-IDHelper_Example.release.xcconfig"; sourceTree = "<group>"; };
 		CBA15EC296D006F1604DBE58C64C038E /* Pods_IDHelper_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_IDHelper_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -135,6 +139,15 @@
 			path = "Target Support Files/Pods-IDHelper_Tests";
 			sourceTree = "<group>";
 		};
+		B3D4F4771D47BF3100A4E24A /* RegularExpressions */ = {
+			isa = PBXGroup;
+			children = (
+				B3D4F4781D47BFAD00A4E24A /* IDRegularExpressions.h */,
+				B3D4F4791D47BFAD00A4E24A /* IDRegularExpressions.m */,
+			);
+			name = RegularExpressions;
+			sourceTree = "<group>";
+		};
 		BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
@@ -155,6 +168,7 @@
 			isa = PBXGroup;
 			children = (
 				BEAD26C75A6C71961C480AD1DFACBF27 /* IDHelper.h */,
+				B3D4F4771D47BF3100A4E24A /* RegularExpressions */,
 			);
 			path = Classes;
 			sourceTree = "<group>";
@@ -184,6 +198,7 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B3D4F47A1D47BFAD00A4E24A /* IDRegularExpressions.h in Headers */,
 				0C16556E7387DDF5156F500F4FC5B1DE /* Pods-IDHelper_Example-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -266,6 +281,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				6B0C28FDA4EAFF1CB020B57EF07618B0 /* Pods-IDHelper_Example-dummy.m in Sources */,
+				B3D4F47B1D47BFAD00A4E24A /* IDRegularExpressions.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
