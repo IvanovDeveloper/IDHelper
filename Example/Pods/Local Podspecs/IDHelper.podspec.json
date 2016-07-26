@@ -1,9 +1,9 @@
 {
   "name": "IDHelper",
   "version": "0.1.0",
-  "summary": "A short description of IDHelper.",
-  "description": "TODO: Add long description of the pod here.",
-  "homepage": "https://github.com/<GITHUB_USERNAME>/IDHelper",
+  "summary": "Ready objective-C solution for developing code",
+  "description": "Ready objective-C solution for developing code. It will be macroses or methods.",
+  "homepage": "https://github.com/IvanovDeveloper/IDHelper",
   "license": {
     "type": "MIT",
     "file": "LICENSE"
@@ -12,7 +12,7 @@
     "Ivanov Developer": "ivanov.developer@mail.ru"
   },
   "source": {
-    "git": "https://github.com/<GITHUB_USERNAME>/IDHelper.git",
+    "git": "https://github.com/IvanovDeveloper/IDHelper.git",
     "tag": "0.1.0"
   },
   "platforms": {

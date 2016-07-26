@@ -1,6 +1,0 @@
-framework module IDHelper {
-  umbrella header "IDHelper-umbrella.h"
-
-  export *
-  module * { export * }
-}
