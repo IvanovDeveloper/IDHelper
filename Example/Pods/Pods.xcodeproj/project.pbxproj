@@ -11,7 +11,6 @@
 		3199A5F4A5A30938C461847CB901699B /* IDHelper-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 2A299A9CB32EE77EC6C5AE13C14940AB /* IDHelper-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		366A56070E88EF4A91E466CBC7470ABE /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CEC22C73C1608DFA5D5D78BDCB218219 /* Foundation.framework */; };
 		4571D0B46234708EE3B927062A4B2849 /* Pods-IDHelper_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = E81E4D6A773A98737976EF35B7622A22 /* Pods-IDHelper_Tests-dummy.m */; };
-		4F1AC5C54C22042061322433EF7929AE /* ReplaceMe.m in Sources */ = {isa = PBXBuildFile; fileRef = 969D86486A4BB1AA1DD1C72E9A480F72 /* ReplaceMe.m */; };
 		687C7ACD0AE14DABA1907D37FA578C65 /* IDHelper-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = F179C613F4B14A412E5C1448D2376A0C /* IDHelper-dummy.m */; };
 		ADE489CEB77FF54CD8C54D8A22E92C5B /* Pods-IDHelper_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = FF425CF36613D0B89FCDB2536B2967DD /* Pods-IDHelper_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		B57FD95F852AB68ECDFAE1BDDB86A37C /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CEC22C73C1608DFA5D5D78BDCB218219 /* Foundation.framework */; };
@@ -49,11 +48,11 @@
 		869767DE2CB368C6E7D1A501AE77DD77 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		887E939FBD41F2CB443573B218FBDBF8 /* Pods-IDHelper_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-IDHelper_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		969D86486A4BB1AA1DD1C72E9A480F72 /* ReplaceMe.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = ReplaceMe.m; sourceTree = "<group>"; };
 		AA1AEF3B0AE27654B333109E702DC7DC /* Pods_IDHelper_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_IDHelper_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		AA383CAB61A839CBED2C635F1CC1C643 /* IDHelper.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = IDHelper.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		ABB3701E3122390846118ADC8AEBC580 /* Pods-IDHelper_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-IDHelper_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		AD86D79900C426515F16103E00E76D1F /* Pods-IDHelper_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-IDHelper_Tests-frameworks.sh"; sourceTree = "<group>"; };
+		B3D4F4761D47A21C00A4E24A /* IDHelper.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = IDHelper.h; sourceTree = "<group>"; };
 		BF2742DABC127B3A9E81D1DC36A71421 /* Pods-IDHelper_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-IDHelper_Example.release.xcconfig"; sourceTree = "<group>"; };
 		C1402DF908D215107E41F56CD274FCBC /* IDHelper-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "IDHelper-prefix.pch"; sourceTree = "<group>"; };
 		CEC22C73C1608DFA5D5D78BDCB218219 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
@@ -189,7 +188,7 @@
 		CCCF6B2DFE95793A97F9102E2123671A /* Classes */ = {
 			isa = PBXGroup;
 			children = (
-				969D86486A4BB1AA1DD1C72E9A480F72 /* ReplaceMe.m */,
+				B3D4F4761D47A21C00A4E24A /* IDHelper.h */,
 			);
 			path = Classes;
 			sourceTree = "<group>";
@@ -354,7 +353,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				687C7ACD0AE14DABA1907D37FA578C65 /* IDHelper-dummy.m in Sources */,
-				4F1AC5C54C22042061322433EF7929AE /* ReplaceMe.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
