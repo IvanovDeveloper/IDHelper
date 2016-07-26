@@ -1,0 +1,16 @@
+PODS:
+  - IDHelper (0.1.0)
+
+DEPENDENCIES:
+  - IDHelper (from `../`)
+
+EXTERNAL SOURCES:
+  IDHelper:
+    :path: ../
+
+SPEC CHECKSUMS:
+  IDHelper: 9b010e053065bf623f13a88e3dc85faf877c9300
+
+PODFILE CHECKSUM: fd04068094e9ba1eaa10a2f71e3756a4cca02a8d
+
+COCOAPODS: 1.0.1

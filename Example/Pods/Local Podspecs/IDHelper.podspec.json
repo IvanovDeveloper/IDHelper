@@ -1,0 +1,22 @@
+{
+  "name": "IDHelper",
+  "version": "0.1.0",
+  "summary": "A short description of IDHelper.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/<GITHUB_USERNAME>/IDHelper",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "Ivanov Developer": "ivanov.developer@mail.ru"
+  },
+  "source": {
+    "git": "https://github.com/<GITHUB_USERNAME>/IDHelper.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "8.0"
+  },
+  "source_files": "IDHelper/Classes/**/*"
+}
