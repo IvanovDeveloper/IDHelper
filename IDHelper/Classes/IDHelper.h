@@ -8,6 +8,6 @@
 
 #ifndef IDHelper_h
 #define IDHelper_h
-
+// Comment
 
 #endif /* IDHelper_h */
