@@ -1,5 +1,5 @@
 PODS:
-  - IDHelper (0.1.0)
+  - IDHelper (0.1.1)
 
 DEPENDENCIES:
   - IDHelper (from `../`)
@@ -9,7 +9,7 @@ EXTERNAL SOURCES:
     :path: ../
 
 SPEC CHECKSUMS:
-  IDHelper: 93cc22d04cc833d31d7603500da6b6d249304099
+  IDHelper: 11bb98d3bd64454c49a310f7c8f24a09b1f14ff6
 
 PODFILE CHECKSUM: fd04068094e9ba1eaa10a2f71e3756a4cca02a8d
 

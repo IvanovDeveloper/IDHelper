@@ -1,6 +1,6 @@
 {
   "name": "IDHelper",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "summary": "Ready objective-C solution for developing code",
   "description": "Ready objective-C solution for developing code. It will be macroses or methods.",
   "homepage": "https://github.com/IvanovDeveloper/IDHelper",
@@ -13,7 +13,7 @@
   },
   "source": {
     "git": "https://github.com/IvanovDeveloper/IDHelper.git",
-    "tag": "0.1.0"
+    "tag": "0.1.1"
   },
   "platforms": {
     "ios": "8.0"

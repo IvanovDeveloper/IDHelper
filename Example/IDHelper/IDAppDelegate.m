@@ -8,11 +8,16 @@
 
 #import "IDAppDelegate.h"
 
+
+#import "IDRegularExpressions.h"
+
 @implementation IDAppDelegate
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
 {
-    // Override point for customization after application launch.
+    
+    [IDRegularExpressions regex];
+    
     return YES;
 }
 
