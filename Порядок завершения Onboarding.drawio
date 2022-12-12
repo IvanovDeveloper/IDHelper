@@ -1,11 +1,11 @@
-<mxfile host="app.diagrams.net" modified="2022-12-12T13:55:51.502Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36" version="20.6.2" etag="WWGelvy7ZRWW8MfdIaOP" type="github">
+<mxfile host="app.diagrams.net" modified="2022-12-12T14:11:14.655Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36" version="20.6.2" etag="GVF0RuC1Z021kEowlDA8" type="github">
   <diagram id="aHfyOlX7qRpwDukkHHWd" name="Страница 1">
-    <mxGraphModel dx="1042" dy="592" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="1654" math="0" shadow="0">
+    <mxGraphModel dx="1042" dy="649" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="1654" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
-        <mxCell id="Wxoq3U4mHdXHJYsRJKl2-4" value="Reset &lt;br&gt;- Key Onboarding new user finished&lt;br&gt;- Key First Open Step" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="510" y="60" width="230" height="100" as="geometry" />
+        <mxCell id="Wxoq3U4mHdXHJYsRJKl2-4" value="Reset &lt;br&gt;- Key Onboarding new user finished&lt;br&gt;- Key Show Tooltip Open Step&lt;br&gt;- Key Show Tooltip Open Filters&lt;br&gt;-&amp;nbsp; Key Send Mixpanel Event to indicate Finishing Onboarding" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="510" y="60" width="230" height="110" as="geometry" />
         </mxCell>
         <mxCell id="Wxoq3U4mHdXHJYsRJKl2-6" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="Wxoq3U4mHdXHJYsRJKl2-5" target="Wxoq3U4mHdXHJYsRJKl2-4">
           <mxGeometry relative="1" as="geometry">
@@ -15,7 +15,7 @@
         <mxCell id="Wxoq3U4mHdXHJYsRJKl2-5" value="&lt;meta charset=&quot;utf-8&quot;&gt;&lt;span style=&quot;color: rgb(0, 0, 0); font-family: Helvetica; font-size: 12px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: center; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; background-color: rgb(248, 249, 250); text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial; float: none; display: inline !important;&quot;&gt;Когда Инититься Onboarding Coordinator&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="130" y="60" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="Wxoq3U4mHdXHJYsRJKl2-7" value="Set true for Key&lt;br&gt;Onboarding new user finished" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="Wxoq3U4mHdXHJYsRJKl2-7" value="Set true for Keys&lt;br&gt;Onboarding&amp;nbsp;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="465" y="340" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="Wxoq3U4mHdXHJYsRJKl2-9" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="Wxoq3U4mHdXHJYsRJKl2-8" target="Wxoq3U4mHdXHJYsRJKl2-7">
